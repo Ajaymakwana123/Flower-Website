@@ -16,8 +16,8 @@
   --icon--color: #666;
   --all--hover--color: #768331;
 
-  --home--bg--color: #f7f7f7;
-  --card--bg--color: #f7f7f7;
+  --home--bg--color: #e2e2e2;
+  --card--bg--color: #e2e2e2;
 }
 
 html {
@@ -177,6 +177,7 @@ header {
 
 .card--des {
   padding: 2rem;
+  border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   background: var(--card--bg--color);
@@ -484,6 +485,7 @@ iframe {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   grid-gap: 1.5rem;
+  align-items: center;
 }
 
 .box-container .box h3 {
@@ -539,8 +541,17 @@ iframe {
 }
 
 .boxss {
-  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
+  display: flexbox;
+  margin-top: 1rem;
 }
 .boxss h3 {
   font-size: 2.4rem;
+  align-items: center;
+}
+
+.boxss p {
+  font-size: 1.2rem;
+  align-items: center;
 }
